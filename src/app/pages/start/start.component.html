@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row" style="height: 100vh;">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+            <div class="card rounded-5 shadow" style="width: 25rem; border: none !important;">
+                <div class="card-header rounded-5 text-center py-5 px-4 bg-header">
+                    <div>
+                        <img class="avatar avatar-xl rounded-circle" [src]="user.photoURL" alt="profile photo">
+                    </div>
+                    <h4 class="fw-bold">{{user.displayName}} 
+                        <i class="bi bi-patch-check-fill fs-5 text-info" *ngIf="user.emailVerified"></i>
+                    </h4>
+                    <small>{{user.email}}</small>
+                </div>
+                <div class="card-body py-5 px-4">
+                    <h5 class="card-title fw-bold">BIO</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente quae
+                        voluptates doloremque eaque nihil corporis at? Dolore quasi saepe mollitia animi magni quam
+                        iusto quis obcaecati enim. Libero, velit!</p>
+                </div>
+                <div class="card-footer rounded-5 p-3">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-primary rounded-pill btn-lg shadow" (click)="logOut()">
+                            <span class="fs-6">Log out</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
