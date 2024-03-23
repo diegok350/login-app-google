@@ -1,4 +1,4 @@
-# LoginApp by Startion Dev
+# LoginApp by Diego Aquino
 Built with Angular 14, Bootstrap 5 and the CodeMono theme.
 You can visit us at codemono.io
 
@@ -20,3 +20,6 @@ ng serve
 
 ## Open in browser
 http://localhost:4200/
+
+## Tutorial
+https://www.youtube.com/watch?v=g3nCMxh46ck
